@@ -1,0 +1,29 @@
+header {
+    height: 100vh;
+    position: relative;
+    margin: 2vw 2vw 0;
+    .links {
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        font-size: calc(2rem + 8vw);
+        margin-top: 70px;
+        font-family: $font-3;
+        letter-spacing: 6px;
+        color: $color-2;
+    }
+    h2 {
+        font-size: calc(1rem + 6.5vw);
+        margin: 18px 0;
+        text-align: left;
+    }
+    .scroll-wrapper {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 3.5vw;
+        color: $color-3;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
