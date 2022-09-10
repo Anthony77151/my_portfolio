@@ -1,0 +1,47 @@
+.portfolio {
+    margin: 200px 0;
+    .projet-container {
+        margin-top: 100px;
+    }
+    .project {
+        position: relative;
+        width: 60vw;
+        max-width: 600px;
+        margin: 50px 5vw;
+        img {
+            transition: 0.4s ease-out;
+            width: 100%;
+        }
+        .project-infos {
+            position: absolute;
+            top: 50%;
+            transform: translate(-50px, -50%);
+            margin-left: 8vw;
+            transition: 0.4s ease-out;
+            opacity: 0;
+            a {
+                font-size: calc(1rem + 3vw);
+            }
+            p {
+                font-size: 2rem;
+                margin-top: 1.5vw;
+                color: $color-2;
+            }
+        }
+        &:hover {
+            img {
+                filter: brightness(20%);
+            }
+            .project-infos {
+                opacity: 1;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+    #projet-2 {
+        margin: 0 6vw 0 auto;
+    }
+    #projet-3 {
+        margin-left: 8vw;
+    }
+}

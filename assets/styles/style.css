@@ -79,7 +79,7 @@ body a:hover::after, body a:visited:hover::after {
     transform: scaleX(1);
   }
 }
-body img {
+body .img {
   height: 395px;
   width: 100vw;
   max-width: 395px;
@@ -87,7 +87,7 @@ body img {
   filter: grayscale(100%);
   transition: 1.5s;
 }
-body img:hover {
+body .img:hover {
   filter: grayscale(10%);
 }
 body .line {
@@ -139,6 +139,7 @@ header .scroll-wrapper {
 }
 .about .img1 {
   display: flex;
+  justify-content: center;
 }
 .about p {
   width: 70%;
@@ -169,6 +170,64 @@ header .scroll-wrapper {
   background: #000101;
   color: #fefeff;
   display: inline-block;
+  padding: 0 12px 0 12px;
+}
+
+.portfolio {
+  margin: 200px 0;
+}
+.portfolio .projet-container {
+  margin-top: 100px;
+}
+.portfolio .project {
+  position: relative;
+  width: 60vw;
+  max-width: 600px;
+  margin: 50px 5vw;
+}
+.portfolio .project img {
+  transition: 0.4s ease-out;
+  width: 100%;
+}
+.portfolio .project .project-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 8vw;
+  transition: 0.4s ease-out;
+  opacity: 0;
+}
+.portfolio .project .project-infos a {
+  font-size: calc(1rem + 3vw);
+}
+.portfolio .project .project-infos p {
+  font-size: 2rem;
+  margin-top: 1.5vw;
+  color: #fefeff;
+}
+.portfolio .project:hover img {
+  filter: brightness(20%);
+}
+.portfolio .project:hover .project-infos {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+.portfolio #projet-2 {
+  margin: 0 6vw 0 auto;
+}
+.portfolio #projet-3 {
+  margin-left: 8vw;
+}
+
+footer p {
+  font-size: calc(1rem + 2vw);
+  margin: 25px 0;
+  text-align: center;
+}
+footer a {
+  font-family: "font-bold", sans-serif;
+  font-size: calc(1rem + 2vw);
+  color: #000101;
 }
 
 /*# sourceMappingURL=style.css.map */
