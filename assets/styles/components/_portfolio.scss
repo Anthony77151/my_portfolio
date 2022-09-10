@@ -37,6 +37,19 @@
                 transform: translate(0, -50%);
             }
         }
+        &::before {
+            content: "";
+            position: absolute;
+            height: 110%;
+            width: 100%;
+            top: -3px;
+            background: $color-2;
+            transition: width 1s ease-out;
+            transition-delay: 0.8s;
+        }
+        &.is-inview::before {
+            width: 0;
+        }
     }
     #projet-2 {
         margin: 0 6vw 0 auto;

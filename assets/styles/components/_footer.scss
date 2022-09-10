@@ -1,8 +1,15 @@
 footer {
+    
     p {
         font-size: calc(1rem + 2vw);
         margin: 25px 0;
         text-align: center;
+        &#ligne-2 {
+            transition-delay: 1s;
+        }
+        &#ligne-3 {
+            transition-delay: 1.2s;
+        }
     }
     a {
         font-family: $font-3;
