@@ -31,11 +31,11 @@ header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 3vw;
+        bottom: 50px;
         color: $color-3;
         font-size: calc(0.8rem + 0.5vw);
-        @media (max-width: 768px) {
-            bottom: 8vw;
-        }
+        // @media (max-width: 768px) {
+        //     bottom: 50px;
+        // }
     }
 }

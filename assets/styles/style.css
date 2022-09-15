@@ -157,14 +157,9 @@ header .scroll-wrapper {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 3vw;
+  bottom: 50px;
   color: rgb(217, 217, 217);
   font-size: calc(0.8rem + 0.5vw);
-}
-@media (max-width: 768px) {
-  header .scroll-wrapper {
-    bottom: 8vw;
-  }
 }
 
 .about {
