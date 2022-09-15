@@ -166,6 +166,11 @@ header .scroll-wrapper {
     bottom: 75px;
   }
 }
+@media (max-width: 425px) {
+  header .scroll-wrapper {
+    bottom: 90px;
+  }
+}
 
 .about {
   margin: 400px 0 250px;
