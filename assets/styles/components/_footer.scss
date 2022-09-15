@@ -16,4 +16,15 @@ footer {
         font-size: calc(1rem + 2vw);
         color: $color-1;
     }
+    .social {
+        display: flex;
+        justify-content: center;
+        min-height: 100px;
+        padding-bottom: 70px;
+        gap: 20%;
+        a {
+            color: $color-1;
+            font-size: 40px;
+        }
+    }
 }

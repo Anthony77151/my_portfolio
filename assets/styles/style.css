@@ -297,5 +297,16 @@ footer a {
   font-size: calc(1rem + 2vw);
   color: #000101;
 }
+footer .social {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  padding-bottom: 70px;
+  gap: 20%;
+}
+footer .social a {
+  color: #000101;
+  font-size: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
