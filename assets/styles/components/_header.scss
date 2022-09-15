@@ -31,8 +31,11 @@ header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 5vw;
+        bottom: 3vw;
         color: $color-3;
         font-size: calc(0.8rem + 0.5vw);
+        @media (max-width: 768px) {
+            bottom: 8vw;
+        }
     }
 }
