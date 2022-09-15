@@ -34,8 +34,8 @@ header {
         bottom: 50px;
         color: $color-3;
         font-size: calc(0.8rem + 0.5vw);
-        // @media (max-width: 768px) {
-        //     bottom: 50px;
-        // }
+        @media (max-width: 768px) {
+            bottom: 75px;
+        }
     }
 }
