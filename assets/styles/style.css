@@ -301,7 +301,6 @@ footer .social {
   display: flex;
   justify-content: center;
   min-height: 100px;
-  padding-bottom: 70px;
   gap: 20%;
 }
 footer .social a {
